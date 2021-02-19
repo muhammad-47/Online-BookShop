@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Online Book Shop</string>
+    <string name="please_sign_in_with_your_username_and_password">Please sign in with your username and password</string>
+    <string name="password">Password</string>
+    <string name="i_have_no_account_let_me_make_one">I have no account, Let me make one</string>
+    <string name="username">username</string>
+    <string name="enter_details_for_sign_up">Enter details for Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="usernamesu">Username</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_back_to_sign_in">Already have an account? Back to sign in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="missingfield">Field is empty</string>
+    <string name="title_activity_my_account">MyAccount</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="view_books">View Books</string>
+    <string name="remove_a_book">Remove a Book</string>
+    <string name="update_book_detail">Update Book Detail</string>
+    <string name="enter_book_name">Enter Book Name</string>
+    <string name="enter_book_description">Enter Book Description</string>
+    <string name="enter_author_name">Enter Author Name</string>
+    <string name="add_book">Add Book</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="search_a_book_view_book_list">Search a Book / View Book List</string>
+    <string name="cart">Cart</string>
+    <string name="history">History</string>
+    <string name="my_account">My account</string>
+    <string name="shipping_details">Shipping Details</string>
+    <string name="add_a_book">Add a Book</string>
+    <string name="name">Name :</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="address">Address :</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="home">Home</string>
+    <string name="textview">TextView</string>
+</resources>

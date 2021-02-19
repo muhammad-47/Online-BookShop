@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purpleprimary"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".BookDetails"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/IvBookImage"
+        android:layout_width="168dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="choosePicture"
+        tools:srcCompat="@drawable/faru" />
+
+    <EditText
+        android:id="@+id/EtAddBookNameUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/enter_book_name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/EtAddBookDesUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/enter_book_description"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/EtAddBookAuthorUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/enter_author_name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/ETprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Enter Price"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/BtnAddBookDBUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/add_book" />
+
+</LinearLayout>

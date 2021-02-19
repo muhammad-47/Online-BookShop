@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063693004923",
+    "project_id": "online-book-shop-ee1d8",
+    "storage_bucket": "online-book-shop-ee1d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063693004923:android:f9d7ec9eb205709fa5b2de",
+        "android_client_info": {
+          "package_name": "com.example.onlinebookshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063693004923-a6ihrbm684d15pmhv6sa3k9533ipg06f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4McpAKQhFtQ7obtEBIKS5tmJLkj1Tl0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063693004923-a6ihrbm684d15pmhv6sa3k9533ipg06f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

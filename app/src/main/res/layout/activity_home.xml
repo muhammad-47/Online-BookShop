@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@color/purpleprimary"
+    android:orientation="vertical"
+    tools:context=".Home"
+    tools:ignore="RtlHardcoded">
+
+    <Button
+        android:id="@+id/BTNback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/black"
+        android:text="Back"
+        app:backgroundTint="@color/purple_200" />
+
+    <Button
+        android:id="@+id/BtnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="BOOK LIST"
+        android:textColor="@color/purple_700"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/BtnMyAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/my_account"
+        android:textColor="@color/purple_700"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/BtnShipping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/shipping_details"
+        android:textColor="@color/purple_700"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/AddaBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:text="@string/add_a_book"
+        android:textColor="@color/purple_500"
+        app:backgroundTint="#FFFFFF"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/BtnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/sign_out"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#600B0B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/purpleprimary" />
+</LinearLayout>
